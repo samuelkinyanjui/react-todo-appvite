@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <>
       <h1>Controlled Form</h1>
-      <form>
+      <form onsubmit=setFname()>
         <label>
           First Name: <input type="text" value={fname} />
         </label>
