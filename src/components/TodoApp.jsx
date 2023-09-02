@@ -1,13 +1,12 @@
 import Header from '@/components/Header';
 import TodosLogic from '@/components/TodosLogic';
-import Navbar from './Navbar';
 const TodoApp = () => {
     return (
       <>
       <Header />
-      <TodosLogic />
-      <Navbar />
+      <TodosLogic />      
     </>
     );
   };
   export default TodoApp;
+  
