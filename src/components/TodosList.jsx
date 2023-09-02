@@ -1,10 +1,8 @@
-import TodoItem from '@/components/TodoItem';
-const TodosList = ({ todosProps ,setTodos }) => {
+
+const TodosList = () => {
   return (
     <ul>
-      {todosProps.map((todo) => (
-        <TodoItem key={todo.id} itemProp={todo} setTodos={setTodos} />
-      ))}
+      <p> list</p>
     </ul>
   );
 };
